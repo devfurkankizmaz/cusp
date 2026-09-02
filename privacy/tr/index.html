@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cusp — Gizlilik Politikası</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #f4f4f7;
+    --card: #ffffff;
+    --ink: #16161a;
+    --ink2: #5c5c68;
+    --rule: #e3e3ea;
+    --tint: #4b49c8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f0f14;
+      --card: #1a1a21;
+      --ink: #f2f2f5;
+      --ink2: #a0a0ad;
+      --rule: #2c2c36;
+      --tint: #9a98ff;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 32px 20px 72px;
+    background: var(--bg);
+    color: var(--ink);
+    font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  main { max-width: 44rem; margin: 0 auto; }
+  header { margin-bottom: 28px; }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 6px; letter-spacing: -0.02em; }
+  .updated { color: var(--ink2); font-size: 0.9rem; margin: 0; }
+  section {
+    background: var(--card);
+    border: 1px solid var(--rule);
+    border-radius: 14px;
+    padding: 22px 24px;
+    margin: 0 0 22px;
+  }
+  h2 { font-size: 1.35rem; margin: 0 0 4px; letter-spacing: -0.01em; }
+  h3 { font-size: 1.02rem; margin: 26px 0 6px; }
+  h3:first-of-type { margin-top: 18px; }
+  p, li { color: var(--ink); margin: 0 0 10px; }
+  ul { padding-left: 1.2em; margin: 0 0 10px; }
+  li { margin-bottom: 6px; }
+  .lede { color: var(--ink2); }
+  strong { font-weight: 650; }
+  hr { border: 0; border-top: 1px solid var(--rule); margin: 34px 0; }
+  a { color: var(--tint); }
+  footer { color: var(--ink2); font-size: 0.9rem; text-align: center; }
+</style>
+</head>
+<body>
+<main>
+
+  <header>
+    <h1>Cusp — Gizlilik Politikası</h1>
+    <p class="updated">Son güncelleme: 2 Eylül 2026</p>
+  </header>
+
+<section>
+    <p class="lede">Cusp verilerinizi toplamaz. Hesap, reklam, analitik ve üçüncü taraf
+      servis yoktur. Bu politika bunun pratikte ne anlama geldiğini açıklar.</p>
+
+    <h3>Cusp neyi, nerede saklar</h3>
+    <p>Girdiğiniz her şey — işlediğiniz dakikalar, notlar, kartlar, ölçüm noktaları ve
+      plan ayarları — <strong>cihazınızda</strong> saklanır.</p>
+    <p>iCloud'a giriş yaptıysanız aynı veri <strong>size ait özel iCloud
+      veritabanında</strong> da tutulur; böylece diğer cihazlarınızda görünür. Bu,
+      Apple Hesabınıza ait olan CloudKit özel veritabanıdır. Cusp'ın geliştiricisinin
+      buraya erişimi yoktur; içeriğini okuyamaz, dışa aktaramaz ya da kurtaramaz.
+      iCloud'da tutulan veri
+      <a href="https://www.apple.com/tr/legal/privacy/">Apple Gizlilik Politikası</a>
+      kapsamındadır.</p>
+    <p>iCloud'a giriş yapmadıysanız veriniz cihazınızdan hiç çıkmaz.</p>
+
+    <h3>Cusp'ın yapmadıkları</h3>
+    <ul>
+      <li>Hesap, kayıt, e-posta adresi ya da şifre istemez.</li>
+      <li>Analitik, kullanım takibi, reklam kimliği veya çökme raporlama servisi kullanmaz.</li>
+      <li>Hiçbir üçüncü taraf SDK içermez.</li>
+      <li>Veri satılmaz, paylaşılmaz, kiralanmaz; reklam veya profilleme için kullanılmaz.</li>
+      <li>Başka uygulama ve web sitelerinde sizi izlemez.</li>
+      <li>Cusp'ın kendi sunucusu yoktur. Verinizin gönderilebileceği bir yer bulunmaz.</li>
+    </ul>
+
+    <h3>Bildirimler</h3>
+    <p>Günlük hatırlatmayı açarsanız Cusp, iOS'tan bildirim gönderme izni ister.
+      Hatırlatmalar iOS tarafından <strong>cihazınızda</strong> planlanır — hiçbir
+      sunucuya bir şey gönderilmez ve teslim için push servisi kullanılmaz. Uygulamadan
+      ya da iOS Ayarlar'dan dilediğiniz zaman kapatabilirsiniz.</p>
+
+    <h3>Dışa aktarma</h3>
+    <p>Cusp kaydınızı JSON, CSV veya Anki metin dosyası olarak dışa aktarabilir. Bu yalnızca
+      siz istediğinizde olur ve dosya, sistem kaydetme penceresinde seçtiğiniz yere
+      kaydedilir. Kaydedildikten sonra dosya Cusp'ın denetimi dışındadır.</p>
+
+    <h3>Verinizi silmek</h3>
+    <ul>
+      <li><strong>Uygulamada:</strong> Ayarlar → “Tüm veriyi sil ve baştan başla”.</li>
+      <li><strong>Cihazda:</strong> Cusp'ı silmek o cihazdaki kopyayı kaldırır.</li>
+      <li><strong>iCloud'da:</strong> iOS Ayarlar → adınız → iCloud → Hesap Depolamasını
+        Yönet → Cusp → Verileri Sil.</li>
+    </ul>
+
+    <h3>Çocuklar</h3>
+    <p>Cusp her yaş için uygundur ve çocuklar dahil hiç kimseden veri toplamaz.</p>
+
+    <h3>Bu politikadaki değişiklikler</h3>
+    <p>Politika değişirse yeni sürüm, güncellenmiş tarihiyle bu sayfada yayınlanır.</p>
+
+    <h3>İletişim</h3>
+    <p>Bu politikayla ilgili sorular: <a href="mailto:furkanikb@icloud.com">furkanikb@icloud.com</a></p>
+  </section>
+
+  <footer>Cusp · com.furkankizmaz.cusp</footer>
+
+</main>
+</body>
+</html>
