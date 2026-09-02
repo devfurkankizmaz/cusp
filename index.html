@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cusp — Support</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #f4f4f7; --card: #ffffff; --ink: #16161a; --ink2: #5c5c68;
+    --rule: #e3e3ea; --tint: #4b49c8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f0f14; --card: #1a1a21; --ink: #f2f2f5; --ink2: #a0a0ad;
+      --rule: #2c2c36; --tint: #9a98ff;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 48px 20px 72px;
+    background: var(--bg); color: var(--ink);
+    font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  main { max-width: 40rem; margin: 0 auto; }
+  h1 { font-size: 2rem; margin: 0 0 4px; letter-spacing: -0.02em; }
+  .tagline { color: var(--ink2); margin: 0 0 32px; font-size: 1.05rem; }
+  section {
+    background: var(--card); border: 1px solid var(--rule);
+    border-radius: 14px; padding: 20px 24px; margin: 0 0 18px;
+  }
+  h2 { font-size: 1.15rem; margin: 0 0 10px; }
+  p { margin: 0 0 10px; }
+  p:last-child { margin-bottom: 0; }
+  a { color: var(--tint); }
+  .muted { color: var(--ink2); font-size: 0.95rem; }
+  footer { color: var(--ink2); font-size: 0.9rem; text-align: center; margin-top: 34px; }
+  hr { border: 0; border-top: 1px solid var(--rule); margin: 30px 0; }
+</style>
+</head>
+<body>
+<main>
+
+  <h1>Cusp</h1>
+  <p class="tagline">The hours to your next language level.</p>
+
+  <section>
+    <h2>Support</h2>
+    <p>Questions, bug reports and feature requests:
+      <a href="mailto:furkanikb@icloud.com">furkanikb@icloud.com</a></p>
+    <p class="muted">Cusp is a free app with no accounts, so there is nothing to
+      recover and no login to reset. If your log has gone missing, check
+      Settings → iCloud inside the app: it says whether syncing is on, and why not
+      if it is off.</p>
+  </section>
+
+  <section>
+    <h2>Privacy</h2>
+    <p>Cusp collects nothing. <a href="privacy/">Read the privacy policy →</a></p>
+  </section>
+
+  <section>
+    <h2>Your data</h2>
+    <p class="muted">Everything you log stays on your device, and in your own private
+      iCloud database if you are signed in to iCloud. You can export all of it as JSON
+      or CSV at any time from Settings → Data.</p>
+  </section>
+
+  <hr>
+
+  <section lang="tr">
+    <h2>Destek (Türkçe)</h2>
+    <p>Soru, hata bildirimi ve öneriler:
+      <a href="mailto:furkanikb@icloud.com">furkanikb@icloud.com</a></p>
+    <p class="muted">Cusp hesap gerektirmeyen ücretsiz bir uygulamadır; kurtarılacak
+      bir hesap ya da sıfırlanacak bir giriş yok. Kaydınız görünmüyorsa uygulama
+      içinde Ayarlar → iCloud satırına bakın: eşitlemenin açık olup olmadığını,
+      kapalıysa nedenini yazar.</p>
+    <p>Gizlilik: Cusp hiçbir veri toplamaz.
+      <a href="privacy/">Gizlilik politikası →</a></p>
+  </section>
+
+  <footer>com.furkankizmaz.cusp</footer>
+
+</main>
+</body>
+</html>
